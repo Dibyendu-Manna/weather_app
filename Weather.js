@@ -34,15 +34,15 @@ const getWeather = (city) => {
 
 			const weatherText = condition.text.toLowerCase();
 			if (weatherText.includes("cloud")) {
-				weatherIcon.src = "images/clouds.png";
+				weatherIcon.src = "clouds.png";
 			} else if (weatherText.includes("sun") || weatherText.includes("clear")) {
-				weatherIcon.src = "images/clear.png";
+				weatherIcon.src = "clear.png";
 			} else if (weatherText.includes("rain")) {
-				weatherIcon.src = "images/rain.png";
+				weatherIcon.src = "rain.png";
 			} else if (weatherText.includes("snow")) {
-				weatherIcon.src = "images/snow.png";
+				weatherIcon.src = "snow.png";
 			} else {
-				weatherIcon.src = "images/mist.png";
+				weatherIcon.src = "mist.png";
 			}
 		})
 		.catch(err => {
