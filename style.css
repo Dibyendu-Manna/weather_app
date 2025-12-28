@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background:#222;
+    background:blue
+;
 
 }
 .card{
@@ -92,3 +93,4 @@ body{
     margin-top:-6px;
     
 }
+
