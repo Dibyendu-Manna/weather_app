@@ -21,6 +21,8 @@ body{
     padding :40px 35 px;
     text-align:center;
     padding: 20px;
+    border:2px solid white;
+
    
 }
 .search{
@@ -95,5 +97,6 @@ body{
     margin-top:-6px;
     
 }
+
 
 
